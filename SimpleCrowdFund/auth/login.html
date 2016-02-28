@@ -1,0 +1,59 @@
+<div class="page-content">
+<div class="page-header">
+	<h1>Login to winkle.io</h1>
+</div>
+<div class="row">
+<div class="space-6"></div>
+<div class="col-sm-6 col-sm-offset-1">
+    <div id="login-box" class="login-box visible widget-box no-border">
+        <div class="widget-body">
+            <div class="widget-main">
+ 
+                <form name="loginForm" class="form-horizontal" role="form">
+                    <div class="form-group" ng-class="{true:'has-error has-feedback',false: {false:'',true:'has-success has-feedback'}[login.email.length > 0]}[loginForm.email.$error.email]">
+                        <label class="col-sm-5 control-label no-padding-right" for="email">Email</label>
+                        <div class="col-sm-7">
+                           <span class="block input-icon input-icon-right">
+                                <input type="email" class="form-control" placeholder="Email" name="email"
+									ng-model="login.email" required focus/>
+									<i class="ace-icon fa fa-user"></i>
+									<span ng-show="loginForm.email.$error.email" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+									<span ng-show="loginForm.email.$error.email" id="inputError2Status" class="sr-only">(error)</span>
+									
+									<span ng-show="login.email.length > 0 && !loginForm.email.$error.email" class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+									<span ng-show="login.email.length > 0 && !loginForm.email.$error.email" id="inputError2Status" class="sr-only">(success)</span>
+										
+							</span>
+                        </div>
+                    </div>
+					
+                    <div class="form-group">
+                        <label class="col-sm-5 control-label no-padding-right" for="password"> Password </label>
+                        <div class="col-sm-7">
+                           <span class="block input-icon input-icon-right">
+                                <input type="password" class="form-control" placeholder="Password" ng-model="login.password" required/>
+                                <i class="ace-icon fa fa-lock"></i>
+                            </span>
+                        </div>
+                    </div>
+					
+					<div class="form-group">
+								<label class="col-sm-5 control-label no-padding-right"> </label>
+								<div class="col-sm-7">
+									<button type="submit" class="width-35 pull-right btn btn-sm btn-primary" ng-click="doLogin(login)" data-ng-disabled="loginForm.$invalid">
+										<i class="ace-icon fa fa-key"></i>
+										Login
+									</button>
+								</div>
+							</div>
+                            <span class="lbl col-sm-5"> </span>
+ 					<div class="col-sm-7">Don't have an account? <a href="#/signup">Signup</a></div>
+                </form>
+
+            </div><!-- /widget-main -->
+        </div><!-- /widget-body -->
+    </div><!-- /login-box -->
+
+</div><!-- /position-relative -->
+</div>
+</div><!-- /.page-content -->

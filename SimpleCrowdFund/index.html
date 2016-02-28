@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title></title>
+  
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/rotating-card.css" rel="stylesheet">
+ 	 
+	<script type="text/javascript">var switchTo5x=true;</script>
+	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript">stLight.options({publisher: "277bc2cb-f98c-466a-b619-f60b1d67130c", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+
+</head>
+<body>
+
+    <!-- Fixed navbar -->
+  
+	 <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+		<li role="presentation" ng-class="{ active: isActive('/')}"><a href="#">HOME</a></li>
+				 <li role="presentation" ng-class="{ active: isActive('/about')}"><a href="#/about">ABOUT</a></li>
+				 <li role="presentation" ng-class="{ active: isActive('/contact')}"><a href="#contact">CONTACT</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">Default</a></li>
+            <li><a href="../navbar-static-top/">Static top</a></li>
+            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+	 <br><br>
+	 <br><br>
+	 <div class="container">
+        <!-- Begin page content -->
+         <div ng-view>
+		Loading ...
+        </div>
+		</div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="modernizr.custom.42199.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="angular.min.js"></script>
+	<script src="moment.js"></script>
+    <script src="angular-animate.min.js"></script>
+    <script src="toaster.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+	<script src="angular-sanitize.js"></script>
+    <script src="app.js"></script>
+    <script src="data.js"></script>
+    <script src="directives.js"></script>
+    <script src="home/home.js"></script>
+    <script src="contact/contact.js"></script>
+    <script src="404/404.js"></script>
+    <script src="case/case.js"></script>
+    <script src="components/version/version.js"></script>
+    <script src="components/version/version-directive.js"></script>
+    <script src="components/version/interpolate-filter.js"></script>
+    <script src="vendor.js"></script>
+    <script src="md5.js"></script>
+    <script src="angular-gravatar.js"></script>
+    <script id="_adpacks_projs" type="text/javascript" src="pro.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script src="api/v1/admin/tinymce/js/tinymce/tinymce.min.js"></script>
+
+
+	<script type="text/javascript" src="editor/syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+	<script type="text/javascript" src="editor/syntaxhighlighter_3.0.83/scripts/shAutoloader.js"></script>
+ 	<script type="text/javascript" src="editor/syntaxhighlighter_3.0.83/scripts/shBrushJava.js"></script>
+	<link type="text/css" rel="stylesheet" href="editor/syntaxhighlighter_3.0.83/styles/shCoreDefault.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>	
+	
+</body>
+</html>

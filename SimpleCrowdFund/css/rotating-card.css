@@ -1,0 +1,712 @@
+body
+{
+	line-height : 27px;
+	font
+}
+.banner { position: relative; overflow: auto;   width: 100%; height: 415px;}
+.banner ul li { list-style: none; float: left; min-height:415px; background:#fff; width:100%;}
+.img-div
+{
+	padding:50px;
+}
+.nav-container
+{
+	background:#eee;
+}
+.nav-github{
+	width:19px;
+	height:19px;
+	margin-left:10px;
+	margin-right:10px;
+}
+.container
+{
+	width:1000px;
+}
+.navbar-default
+{
+	border-color:#fff;
+	background-color:#fff;
+}
+.blog-header
+{
+	height:100px;
+}
+a:hover
+{
+		text-decoration : none;
+}
+ 
+.service-head
+{
+	padding:20px;
+	text-align:center;
+	padding-top:40px;
+}
+.service-head > h3
+{
+	font-size : 30px;
+}
+.main-post
+{
+   position: relative;
+    min-height: 300px;
+}
+.box-btn{
+   position: absolute;
+    bottom: 0;
+}
+#home-top
+{
+	margin-top:20px;
+}
+.main-post-first
+{
+ 	min-height : 200px;
+	margin-bottom: 60px;
+ 	background: #fff;
+ }
+ .page-header
+ {
+	padding-bottom:0px;
+	margin: 25px 0 20px;
+ }
+.page-header > a > h3{
+	margin-top:5px;
+}
+.main-post-first > .page-header
+{
+	margin: 15px 0 20px;
+}
+.blog-post-head  h3
+{
+	font-size: 17px;
+	font-style:bold;
+}
+.dont-highlight
+{
+	background:#null;
+	padding:2px 5px 2px 5px;
+}
+.highlight
+{
+	background-color:rgba(255, 255, 255, 0.7);
+	padding:2px 5px 2px 5px;
+	font-weight:bold;
+}
+.index-main
+{
+	background:#fff;
+	min-height:450px;
+	padding:20px;
+
+	}
+.post-comments{
+	
+	margin:20px;
+	margin-bottom:30px;
+	padding-bottom:30px;
+}
+.service-div h4
+{
+
+}
+.service-div
+{
+	background: #fff;
+ 	padding:5px 20px 20px 20px;
+	margin:10px;
+}
+.service-left{
+	margin-left:0px;
+	margin-right:0px;
+}
+.service-right{
+	margin-right:0px;
+	margin-left:0px;
+}
+.glyphicon glyphicon-send
+{ 
+}
+.card .name
+{
+	color : #0099CC;
+}
+.blog-post-head{
+	background:#eee;
+	min-height: 117px;
+}
+#team-main{
+	padding-left:0px;
+	padding-right:0px;
+}
+#main.container{
+	min-height:700px;
+}
+div.head{
+ /*	margin-left: auto;
+    margin-right: auto;
+	width:70%;
+	text-align:center;*/
+}
+.blog-post-meta{
+	font-size: 16px;
+}
+
+.blog-post-date{
+	font-size: 12px;
+	color:#999;
+}
+ .blog-post-title > a > h3 
+ {
+	margin-top: 5px;
+ }
+.blog-post-title > h4{
+	font-size:15px;
+}
+.blog-post-title
+{
+	font-size: 16px;
+	
+}
+.blog-post > a {
+     text-decoration: none;
+}
+.blog-masthead {
+  background-color: #428bca;
+
+}
+
+/* Nav links */
+.blog-nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+  color: #cdddeb;
+}
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.blog-nav .active {
+  color: #fff;
+}
+.blog-nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+
+
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.blog-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+.blog-description {
+  font-size: 20px;
+  color: #999;
+}
+
+
+/*
+ * Main column and sidebar layout
+ */
+
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 0 15px 15px 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+
+/* Pagination */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover
+{
+	background-color:#f9f9f9;
+}
+.h3,h3
+{
+font-size:16px;
+}
+/*
+ * Blog posts
+ */
+
+.blog-post {
+ 	background: #fff;
+}
+.blog-post-details
+{
+ 	background: #fff;
+ 	margin-bottom: 20px !important;
+ }
+.related-post
+{
+	margin-bottom:17px;
+}
+.blog-post-title {
+  margin-bottom: 5px;
+ }
+.blog-post-meta {
+   color: #999;
+}
+.side-div{
+
+ 	bottom:0;
+	padding:35px; 
+	background: #fff;
+
+    height: 100%;
+}
+.side-div > ul
+{
+	padding-left:15px;
+}
+.side-div > .page-header
+{
+	margin-top:15px !important;
+}
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+	
+@font-face {
+		font-family: DroidNaskh;
+		src: url(fonts/DroidNaskh/DroidNaskh-Regular.ttf);
+	}
+body {
+ 	font-size: 17px;
+	font-family: DroidNaskh,Arial,sans-serif;
+}
+h1{
+	font-weight:bolder;
+}
+ 
+ * {
+ border-radius: 0 !important;
+}
+ 
+/* entire container, keeps perspective */
+.card-container {
+	  -webkit-perspective: 800px;
+   -moz-perspective: 800px;
+     -o-perspective: 800px;
+        perspective: 800px;
+        margin-bottom: 30px;
+}
+/* flip the pane when hovered */
+.card-container:hover .card, .card-container.hover .card {
+/*	-webkit-transform: rotateY( 180deg );
+-moz-transform: rotateY( 180deg );
+ -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );*/
+}
+
+.card-container.static:hover .card, .card-container.static.hover .card {
+	-webkit-transform: none;
+-moz-transform: none;
+ -o-transform: none;
+    transform: none;
+}
+/* flip speed goes here */
+.card {
+	 -webkit-transition: -webkit-transform .5s;
+   -moz-transition: -moz-transform .5s;
+     -o-transition: -o-transform .5s;
+        transition: transform .5s;
+-webkit-transform-style: preserve-3d;
+   -moz-transform-style: preserve-3d;
+     -o-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	-webkit-backface-visibility: hidden;
+   -moz-backface-visibility: hidden;
+     -o-backface-visibility: hidden;
+        backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #FFF;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+}
+
+/* back, initially hidden pane */
+.back {
+		-webkit-transform: rotateY( 180deg );
+   -moz-transform: rotateY( 180deg );
+     -o-transform: rotateY( 180deg );
+        transform: rotateY( 180deg );
+        z-index: 3;
+}
+
+/*        Style       */
+
+
+.card{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 0px;
+    color: #444444;
+}
+.card-container, .front, .back {
+	width: 100%;
+ 	border-radius: 0px;
+}
+.card .cover{
+    height: 105px;
+    overflow: hidden;
+    border-radius: 0px 0px 0 0;
+}
+.card .cover img{
+    width: 100%;
+}
+.card .user{
+    border-radius: 50%;
+    display: block;
+    height: 120px;
+    margin: -55px 50px 0;
+    overflow: hidden;
+    width: 120px;
+}
+.card .user img{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 4px solid #FFFFFF;
+    width: 100%;
+}
+
+.card .content{
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+ }
+.card .content .main {
+  	padding-bottom: 20px;
+	padding-right:20px;
+		}
+.card .content .work {
+ 	margin-top:35px;
+
+}
+.main h4{
+    margin-top : 30px;
+}
+.card .back .content .main {
+    height: 215px;
+}
+.card .name {
+    font-size: 22px;
+    line-height: 28px;
+    margin: 10px 0 0;
+ }
+.card h5{
+    margin: 5px 0;
+    font-weight: 400;
+    line-height: 20px;
+}
+.card .profession{
+    color: #999999;
+    margin-bottom: 20px;
+}
+.card .footer {
+    border-top: 1px solid #EEEEEE;
+    color: #999999;
+    margin: 30px 0 0;
+    padding: 10px 0 0;
+    text-align: center;
+}
+.card .footer .social-links{
+    font-size: 18px;
+}
+.card .footer .social-links a{
+    margin: 0 7px;
+}
+.card .header {
+    padding: 15px 20px;
+    height: 90px;
+}
+.card .motto{
+    border-bottom: 1px solid #EEEEEE;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/*      Just for presentation        */
+
+.title{
+    color: #506A85;
+    text-align: center;
+    font-weight: 300;
+    font-size: 44px;
+    margin-bottom: 90px;
+    line-height: 90%;
+}
+.title small{
+    font-size: 17px;
+    color: #999;
+    text-transform: uppercase;
+    margin: 0;
+}
+.space-50{
+    height: 50px;
+    display: block;
+}
+.space-200{
+    height: 200px;
+    display: block;
+}
+.white-board{
+    background-color: #FFFFFF;
+    min-height: 200px;
+    padding: 60px 60px 20px;
+}
+.ct-heart{
+    color: #F74933;
+}
+
+ pre.prettyprint{
+    background-color: #ffffff;
+    border: 1px solid #999;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: left;
+}
+.atv, .str{
+    color: #05AE0E;
+}
+.tag, .pln, .kwd{
+     color: #3472F7;
+}
+.atn{
+  color: #2C93FF;
+}
+.pln{
+   color: #333;
+}
+.com{
+    color: #999;
+} 
+
+
+/*       Fix bug for IE      */
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .front, .back{
+        -ms-backface-visibility: visible;    
+        backface-visibility: visible;
+    }
+    
+    .back {
+        visibility: hidden;
+        -ms-transition: all 0.2s cubic-bezier(.92,.01,.83,.67);
+    }
+    .front{
+        z-index: 4;
+    }
+    .card-container:hover .back{
+        z-index: 5;
+        visibility: visible;
+    }
+}
+
+/******* share buttons ***************/
+.stButton_gradient 
+{
+	height:22px !important;
+ }
+ .st-facebook-counter{
+	height:22px !important;
+ }
+ .st-twitter-counter{
+	height:22px !important;
+ }
+ .st-email-counter{
+	height:22px !important;
+ }
+ .st-linkedin-counter
+ {
+ 	height:22px !important;
+ }
+ .share-div
+ {
+ margin-top : 25px;
+ }
+ 
+ 
+ /**** Full height ************/
+ .inside-full-height {
+  /*
+  // if you want to give content full height give him height: 100%;
+  // with content full height you can't apply margins to the content
+  // content full height does not work in ie http://stackoverflow.com/questions/27384433/ie-display-table-cell-child-ignores-height-100
+  */
+  height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* columns of same height styles */
+.tab-content {
+    height: 100%;
+    width: 100%;
+	display: table-cell; 
+	vertical-align: middle;
+	text-align:center;
+}
+html,
+body,
+body .row,
+.left-side,
+.center-side {
+  height: 100%;
+  min-height: 100%;
+    overflow-x: hidden;
+}
+.center-side
+{
+  overflow-y:scroll;
+}
+.row-height {
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
+.col-height {
+  display: table-cell;
+  float: none;
+  height: 100%;
+}
+.center-side 
+{    
+	 vertical-align: top;
+	 padding:40px;
+     overflow-y : auto;
+}
+.left-side 
+{    
+	 vertical-align: top;
+	 background:#00838F;
+	 display: table;
+	 color:#fff;
+	 padding:15px;
+}
+.left-side ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.left-side ul li {
+    display: inline;
+	margin:1px;
+}
+.img-circle1
+{
+	border-radius :50% !important;
+	width:90px;
+	margin-bottom:10px;
+	border:3px solid #FFF;
+}
+.tab-content h2
+{
+	font-size:28px;
+	color: #fff;
+	font-weight:bolder;
+	margin-bottom:20px;
+}
+.left-side  .tab-content
+{
+	padding:20px;
+}
+.left-side p
+{
+	color:#CFD8DC;
+}
+.blog-post h1{
+	font-weight:bolder; 
+	color:#006064;
+}
+.blog-post-container{
+	margin-bottom: 40px;
+}
+
+#menu
+{
+	margin-top:40px;
+}
+
+#menu > li > a
+{
+	color:#fff;
+	font-size:12px;
+}
+

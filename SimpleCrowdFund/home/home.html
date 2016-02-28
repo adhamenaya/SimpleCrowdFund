@@ -1,0 +1,15 @@
+<div class="row">
+	<div class="col-sm-6 col-md-4" ng-repeat="case in cases">
+		<div class="thumbnail">
+			<img src="https://s3.amazonaws.com/launchgood/project%2F2301%2FNiarchos-Lesvos-1200-555x370.jpg" alt="...">
+			<div class="caption">
+				<h3>{{case.title}}</h3>
+				<p><span ng-bind-html="subString(case.details)"></span></p>
+				<p><a href="#/case/{{case.id}}" class="btn btn-primary" role="button">Support</a> </p>
+			  </div>
+		</div>
+	</div>
+ </div>
+ 
+ 
+
